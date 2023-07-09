@@ -126,7 +126,7 @@ a {
 }
 .bluebox {
   display: flex;
-  color: #e5e7eb;
+  color: white;
   flex-direction: row;
   justify-content: space-around;
   background: #3882f6;
