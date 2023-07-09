@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  color: white;
+}
+.header {
+  display: flex;
+  background: #1f2937;
+  padding: 8px;
+  justify-content: space-around;
+  align-items: center;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+}
+.right {
+  display: flex;
+  justify-content: flex-end;
+}
+.hero {
+  display: flex;
+  background: #1f2937;
+  display: flex;
+  justify-content: space-around;
+  min-height: 50vh;
+  align-items: center;
+}
+.left-hero {
+  max-width: 450px;
+}
+
+.hero img {
+  max-width: 400px;
+  border-radius: 10%;
+}
+.logo {
+  font-size: 24px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.head {
+  font-weight: bolder;
+  font-size: 44px;
+}
+.subhead {
+  font-size: 18px;
+  color: lightgrey;
+}
+.signup {
+  background-color: #3882f6;
+  max-width: fit-content;
+  padding: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 10%;
+  margin-top: 15px;
+  font-weight: bold;
+}
+.info {
+  display: flex;
+  min-height: 40vh;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 50px;
+  color: black;
+  text-align: center;
+}
+.info img {
+  max-width: 300px;
+  border: 10px solid skyblue;
+  border-radius: 10%;
+  margin-bottom: 20px;
+}
+.bookhead {
+  color: black;
+  text-align: center;
+  font-size: 36px;
+  margin-top: 50px;
+  font-weight: bold;
+}
+.image-text {
+  max-width: 300px;
+}
+.quote {
+  display: flex;
+  flex-direction: column;
+  background: #e5e7eb;
+  color: #1f2937;
+  min-height: 55vh;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.quotetext {
+  font-size: 36px;
+  max-width: 150vh;
+  font-style: italic;
+}
+.quoteauthor {
+  margin-top: 5px;
+  align-self: flex-end;
+  color: black;
+  margin-right: 34vh;
+  font-size: 24px;
+}
+.adcontainer {
+  display: flex;
+  min-height: 40vh;
+  background: white;
+  justify-content: center;
+  align-items: center;
+}
+.bluebox {
+  display: flex;
+  color: #e5e7eb;
+  flex-direction: row;
+  justify-content: space-around;
+  background: #3882f6;
+  padding: 16px;
+  border: #3882f6 solid 10px;
+  border-radius: 10px;
+  min-width: 90vh;
+  min-height: 12vh;
+}
+.adinfo {
+  font-weight: bold;
+}
+.leftad,
+.rightad {
+  align-self: center;
+}
+.adbutton {
+  padding: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border: #e5e7eb solid 3px;
+  border-radius: 10px;
+}
+.footer {
+  display: flex;
+  background: #1f2937;
+  justify-content: center;
+  align-items: center;
+  min-height: 8vh;
+}
