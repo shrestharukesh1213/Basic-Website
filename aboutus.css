@@ -1,0 +1,12 @@
+.right > ul {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.aboutus {
+  margin-left: 2vh;
+}

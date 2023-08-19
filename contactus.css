@@ -1,0 +1,29 @@
+.contactus-head {
+  font-size: 50px;
+  font-weight: bold;
+}
+.contactus {
+  height: 100vh;
+  color: black;
+  padding: 20px;
+}
+.contactus-text > ul > li {
+  list-style-type: none;
+}
+.right > ul {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.contactus {
+  color: black;
+  margin-left: 2vh;
+}
+p:nth-child(2n + 3) {
+  font-size: 1.2em;
+  font-weight: bolder;
+}
