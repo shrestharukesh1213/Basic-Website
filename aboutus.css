@@ -1,12 +1,19 @@
 .right > ul {
   list-style-type: none;
   display: flex;
-  gap: 16px;
+  gap: 1em;
 }
 a {
   text-decoration: none;
   color: white;
 }
 .aboutus {
-  margin-left: 2vh;
+  background-color: rgba(31, 41, 55, 0.5);
+  color: lightgray;
+}
+.aboutus-text {
+  font-size: 1.5em;
+}
+.aboutus-text > ul > li {
+  margin-left: 2.5vh;
 }
