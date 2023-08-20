@@ -1,0 +1,30 @@
+.right > ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1em;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+td,
+th {
+  border: 4px solid black;
+  text-align: center;
+  padding: 1em;
+  color: lightgray;
+}
+tr:nth-child(even) {
+  background-color: lightgray;
+  background-color: rgba(31, 41, 55, 0.8);
+}
+tr,
+th {
+  border: 4px solid black;
+}
+table {
+  display: flex;
+  justify-content: center;
+  height: 82.1vh;
+  align-items: center;
+}
