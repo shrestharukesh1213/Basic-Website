@@ -16,6 +16,7 @@ body {
     gap: 0.5em;
   }
 }
+
 .right > ul {
   list-style-type: none;
   display: flex;
