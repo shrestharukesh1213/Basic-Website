@@ -1,3 +1,22 @@
+@media only screen and (max-width: 1000px) {
+  .header > .left > .logo {
+    font-size: 2rem;
+  }
+  .header > .right {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .aboutus-head {
+    font-size: 1.5rem;
+  }
+  .aboutus-text > p {
+    font-size: 1rem;
+  }
+  .aboutus-text > ul > li {
+    font-size: 1rem;
+  }
+}
 .right > ul {
   list-style-type: none;
   display: flex;
@@ -8,7 +27,7 @@ a {
   color: white;
 }
 .aboutus {
-  background-color: rgba(31, 41, 55, 0.5);
+  background-color: rgba(31, 41, 55, 0.8);
   color: lightgray;
 }
 .aboutus-text {
@@ -16,4 +35,11 @@ a {
 }
 .aboutus-text > ul > li {
   margin-left: 2.5vh;
+}
+@media only screen and (max-width: 560px) {
+  .header > .right > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
 }

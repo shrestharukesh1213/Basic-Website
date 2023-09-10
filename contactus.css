@@ -29,3 +29,18 @@ p:nth-child(2n + 3) {
   font-size: 1.2em;
   font-weight: bolder;
 }
+@media only screen and (max-width: 1000px) {
+  .header > .left > .logo {
+    font-size: 2rem;
+  }
+  .header > .right {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .header > .right > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+}

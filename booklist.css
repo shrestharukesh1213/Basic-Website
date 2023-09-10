@@ -1,6 +1,21 @@
 body {
   background-color: antiquewhite;
 }
+@media only screen and (max-width: 1000px) {
+  .header > .left > .logo {
+    font-size: 2rem;
+  }
+  .header > .right {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .header > .right > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+}
 .right > ul {
   list-style-type: none;
   display: flex;
@@ -9,6 +24,10 @@ body {
 a {
   text-decoration: none;
   color: white;
+}
+p > a {
+  text-decoration: none;
+  color: #3882f6;
 }
 .aboutus {
   margin-left: 2vh;
@@ -38,7 +57,7 @@ span {
   border: 5px solid black;
   margin-top: 2rem;
   gap: 0.2em;
-  background-color: rgba(31, 41, 55, 0.8);
+  background-color: rgba(31, 41, 55, 0.98);
 }
 .book > .left {
   padding-left: 0;

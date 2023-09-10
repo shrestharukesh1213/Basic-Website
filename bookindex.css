@@ -14,17 +14,46 @@ th {
   padding: 1em;
   color: lightgray;
 }
-tr:nth-child(even) {
-  background-color: lightgray;
-  background-color: rgba(31, 41, 55, 0.8);
-}
 tr,
 th {
   border: 4px solid black;
+  font-size: 1.5em;
+  background-color: rgba(31, 41, 55, 1);
 }
 table {
   display: flex;
   justify-content: center;
   height: 82.1vh;
   align-items: center;
+}
+@media only screen and (max-width: 1000px) {
+  .header > .left > .logo {
+    font-size: 2rem;
+  }
+  .header > .right {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .header > .right > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+}
+@media only screen and (max-height: 800px) {
+  tr,
+  th {
+    font-size: 1.2em;
+  }
+}
+@media only screen and (max-width: 480px) {
+  tr,
+  th {
+    font-size: 1.2em;
+  }
+  th,
+  td {
+    padding: 0.5em;
+  }
 }

@@ -25,7 +25,7 @@ input {
 }
 form {
   padding: 1em;
-  width: 38%;
+  width: 50vh;
   background-color: rgba(31, 41, 55, 0.8);
   margin-bottom: 1em;
 }
@@ -58,4 +58,19 @@ input[type="submit"] {
   border-radius: 0.5rem;
   cursor: pointer;
   width: 20%;
+}
+@media only screen and (max-width: 1000px) {
+  .header > .left > .logo {
+    font-size: 2rem;
+  }
+  .header > .right {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .header > .right > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
 }
